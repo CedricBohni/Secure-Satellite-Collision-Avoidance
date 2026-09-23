@@ -1,0 +1,3 @@
+# Cleartext values party 1 contributes to the computation.
+# One `<wire> <value>` pair per line; values are decimal reals.
+I2 -5

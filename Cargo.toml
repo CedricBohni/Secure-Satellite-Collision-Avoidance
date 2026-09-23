@@ -4,6 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+# Kept for the FSS-based gates that will be plugged in later.
 fss = { path = "libfss" }
 bincode = "1.3"
 serde = { version = "1.0", features = ["derive"] }
+rand = "0.7.3"
