@@ -1,0 +1,10 @@
+I1
+I2
+G1 * I1 I2
+G2 C 40
+G3 >> c G1 G2
+G4 + I2 I1
+G5 >> c G4 G2
+G6 + G3 G5
+G7 < 0 G6
+O1 G8
